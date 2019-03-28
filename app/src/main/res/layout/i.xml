@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/info1"
+    tools:context="com.example.myapplicationcm.i">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:text="name"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:id="@+id/textView2"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:text="Name ="
+        android:layout_marginStart="7dp"
+        android:layout_marginLeft="7dp"
+        android:id="@+id/textView"
+        tools:layout_editor_absoluteY="0dp"
+        tools:ignore="MissingConstraints"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:text="Email =" android:layout_marginStart="5dp" android:layout_marginLeft="5dp" android:id="@+id/textView3" tools:ignore="MissingConstraints" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@+id/textView" android:layout_marginTop="26dp"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:text="Credits ="
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/textView5"
+        tools:ignore="MissingConstraints"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        android:layout_marginTop="37dp"/>
+
+    <Button
+        android:layout_height="48dp"
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:text="Transfer Amount"
+        android:layout_marginStart="128dp"
+        android:layout_marginLeft="128dp"
+        android:id="@+id/button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.33"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginRight="168dp"
+        android:layout_marginEnd="168dp"
+        android:layout_marginBottom="172dp"
+        android:background="@drawable/button_ackground"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView3"
+        android:textStyle="bold" android:textSize="30dp"
+        android:text="email"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:id="@+id/textView4"
+        tools:ignore="MissingConstraints"
+        android:layout_marginTop="70dp"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView5"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:text="credit"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:id="@+id/textView6"
+        tools:ignore="MissingConstraints"
+        android:layout_marginTop="142dp"/>
+
+
+</android.support.constraint.ConstraintLayout>
